@@ -19,3 +19,7 @@ npm install --save mongoose
 
 ** increasing number of watchers on linux
 echo fs.inotify.max_user_watches=582222 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+
+
+## bytes server files..
+npm install --save multer
