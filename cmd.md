@@ -23,3 +23,14 @@ echo fs.inotify.max_user_watches=582222 | sudo tee -a /etc/sysctl.conf && sudo s
 
 ## bytes server files..
 npm install --save multer
+
+
+## mongose validator unique
+npm install --save mongoose-unique-validator
+
+## encrypt passwords
+npm install --save bcrypt
+
+
+## token auth
+npm install --save jsonwebtoken
